@@ -1,5 +1,5 @@
 # 3D-Design-Portfolio
-Hello there! I'm Idriss Mrayah, frontend engineer by profession, a creative at heart.
+Hello there! I'm Idriss Mrayah, Fullstack engineer by profession, a creative at mind.
 
 This the updated version of my personal website which is now in 3D. LFG!
 
