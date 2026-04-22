@@ -9,7 +9,7 @@ import { isMobile } from "react-device-detect";
 
 import { useThemeStore } from "@stores";
 
-import AwwardsBadge from "./AwwardsBadge";
+// import AwwardsBadge from "./AwwardsBadge";
 import Preloader from "./Preloader";
 import ProgressLoader from "./ProgressLoader";
 import { ScrollHint } from "./ScrollHint";
@@ -79,7 +79,7 @@ const CanvasLoader = (props: { children: React.ReactNode }) => {
           <Suspense fallback={null}>
             <ambientLight intensity={0.5} />
 
-            <ScrollControls pages={4} damping={0.4} maxSpeed={1} distance={1} style={{ zIndex: 1 }}>
+            <ScrollControls pages={5} damping={0.4} maxSpeed={1} distance={1} style={{ zIndex: 1 }}>
               {props.children}
               <Preloader />
             </ScrollControls>
@@ -90,7 +90,7 @@ const CanvasLoader = (props: { children: React.ReactNode }) => {
         </Canvas>
         <ProgressLoader progress={progress} />
       </div>
-      <AwwardsBadge />
+      {/* <AwwardsBadge /> */}
       <ThemeSwitcher />
       <ScrollHint />
     </div>
