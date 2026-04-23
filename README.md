@@ -3,7 +3,8 @@ Hello there! I'm Idriss Mrayah, Fullstack engineer by profession, a creative at 
 
 This the updated version of my personal website which is now in 3D. LFG!
 
-Checkout the live version at [3D-Design-Portfolio](https://github.com/samael226/3D-Design-Portfolio)
+Checkout the live version at  https://idrissmrayahportfolio.vercel.app/
+
 
 ## Tech Stack
 
