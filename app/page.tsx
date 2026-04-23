@@ -15,6 +15,7 @@ const Home = () => {
         <Footer/>
       </ScrollWrapper>
     </CanvasLoader>
+    
   );
 };
 export default Home;
