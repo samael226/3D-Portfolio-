@@ -1,4 +1,5 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
 import localFont from 'next/font/local';
 import "./globals.css";
@@ -79,6 +80,7 @@ export default function RootLayout({
         className={`${soriaFont.variable} ${vercettiFont.variable} font-sans antialiased`}
       >
         {children}
+        <SpeedInsights />
       </body>
       <GoogleAnalytics gaId={'G-7WD4HM3XRE'}/>
     </html>
